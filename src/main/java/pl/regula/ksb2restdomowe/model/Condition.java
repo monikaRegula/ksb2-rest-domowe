@@ -1,5 +1,5 @@
 
-package pl.regula.ksb2restdomowe;
+package pl.regula.ksb2restdomowe.model;
 
 import com.fasterxml.jackson.annotation.*;
 

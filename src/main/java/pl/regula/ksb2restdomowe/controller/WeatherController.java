@@ -1,4 +1,4 @@
-package pl.regula.ksb2restdomowe.api;
+package pl.regula.ksb2restdomowe.controller;
 
 import org.apache.logging.log4j.util.Strings;
 import org.springframework.stereotype.Controller;
@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 import pl.regula.ksb2restdomowe.model.Weather;
 
 @Controller
-public class WeatherService {
+public class WeatherController {
 
     private static final String WEATHER_API = "http://api.weatherapi.com/v1/current.json?key=c2875f2439a944258a7154557231205&q=";
 
