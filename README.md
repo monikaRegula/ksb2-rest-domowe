@@ -1,8 +1,4 @@
-# ksb2-rest-domowe
-Pogodynka
-
-Połącz się z serwisem pogodowym i stwórz widok, który umożliwia na wprowadzanie miasta do pola tekstowego. 
-Po zatwierdzeniu przyciskiem wyświetli się aktualna pogoda dla danej miejscowości wraz z odzwierciedlającą pogodę grafiką.
+Napisz aplikacje, która łączy się z API pogodowym i co godzinę zapisuje informacje na temat aktualnej temperatury w bazie danych (wykorzystaj Hibernate).
 
 Serwis pogodowy: https://www.weatherapi.com
 
@@ -19,17 +15,18 @@ Klucz do API wprowadzono jako finalną zmienną statyczną w kodzie źródłowym
 ![image](https://github.com/monikaRegula/ksb2-rest-domowe/assets/33186866/617825b1-bc49-46d1-acca-9d58fc65fa31)
 
 Do stworzenia modelu wykorzystano [to](https://www.jsonschema2pojo.org) :
+
 ![image](https://github.com/monikaRegula/ksb2-rest-domowe/assets/33186866/f0fdb299-a62f-436c-a9ec-1d7faf3e240c)
 
 
 ===================================================
 
-
 Jak działa apka?
 
-![image](https://github.com/monikaRegula/ksb2-rest-domowe/assets/33186866/ce1c67ac-dfac-4b0b-9111-5cb4244958aa)
+![img.png](img.png)
 
-![image](https://github.com/monikaRegula/ksb2-rest-domowe/assets/33186866/1433d70f-6ca7-4fa4-8f3b-ee15a51c0756)
+dla testów ustawiono inną wartość cron=*/15 * * * * *
 
+![img_1.png](img_1.png)
 
 
